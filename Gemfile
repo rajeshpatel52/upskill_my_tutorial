@@ -43,6 +43,8 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'font-awesome-sass', '4.6.2'
 
 gem "websocket-extensions", "0.1.4"
+# Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
 
 
 group :development, :test do
