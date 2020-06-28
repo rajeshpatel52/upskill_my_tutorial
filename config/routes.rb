@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 root to: 'forms#home'
 get 'about', to: 'forms#about'
 resources :contacts
+get 'contact-us', to: 'contacts#new'
 
 end
