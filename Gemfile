@@ -46,6 +46,9 @@ gem "websocket-extensions", "0.1.4"
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 
+# Use Devise for user authentication
+gem 'devise', '4.7.2'
+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
