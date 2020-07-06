@@ -42,7 +42,7 @@ gem 'sassc-rails', '>= 2.1.0'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
-gem "websocket-extensions", "0.1.4"
+gem "websocket-extensions", "0.1.5"
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 
