@@ -49,7 +49,7 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise', '4.7.2'
 # Use Stripe for payment processing
-gem 'stripe', '1.48.0'
+gem 'stripe', '5.23.1'
 # Use Figaro for ENV variables
 gem 'figaro', '1.2.0'
 

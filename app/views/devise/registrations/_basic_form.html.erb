@@ -2,6 +2,10 @@
   <%= devise_error_messages! %>
 
   <%= hidden_field_tag 'plan', params[:plan] %>
+  <div class="field form-group">
+    <%= f.label :customer_name %>
+    <%= f.text_field :customer_name, autofocus: true, class: 'form-control' %>
+  </div>
 
   <div class="field form-group">
     <%= f.label :email %>
